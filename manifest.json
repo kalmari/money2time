@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "money2time",
+  "version": "0.1",
+  "description": "loooool",
+  "icons": {"128": "rocket-128.png"},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ]
+}
