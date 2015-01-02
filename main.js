@@ -38,11 +38,11 @@ chrome.runtime.sendMessage('getData', function(response) {
             var replaced = false;
             for (var currencyKey in currencies) {
                 var currency = currencies[currencyKey];
-                node.data = node.data.replace(currency.matches, function() {
+                node.data = node.data.replace(currency.matches, function(match) {
                     replaced = true;
                     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_string_as_a_parameter
                     var value = (currency.normalizeValue || identityFunction)(arguments[currency.matchingGroupIndex]);
-                    return (+value / +exchangeRatesToUsd[currencyKey] / rateInUsd).toFixed(2) + 'wh'
+                    return match + ' (' + (+value / +exchangeRatesToUsd[currencyKey] / rateInUsd).toFixed(2) + 'wh)'
                 });
                 if (replaced) {
                     break;

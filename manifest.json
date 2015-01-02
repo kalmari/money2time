@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "money2time",
-  "version": "0.1",
+  "name": "money to time",
+  "short_name": "buxtime",
+  "version": "0.2",
   "description": "Google chrome browser extension converting price to working hours",
   "icons": {"128": "rocket-128.png"},
   "content_scripts": [
