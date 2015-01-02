@@ -37,8 +37,9 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
             exchangeRatesToUsd = items.exchangeRatesToUsd;
             if (!exchangeRatesToUsd || (now() - exchangeRatesToUsd.DateTime * 1000) > hour) {
                 makeAjaxRequest('http://www.getexchangerates.com/api/latest.json', function(response) {
+                    exchangeRatesToUsd = response[0];
                     chrome.storage.local.set({
-                        exchangeRatesToUsd: response[0]
+                        exchangeRatesToUsd: exchangeRatesToUsd
                     }, function() {
                         checkThatAllAjaxRequestsCompleted()
                     });
