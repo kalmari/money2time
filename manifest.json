@@ -9,5 +9,19 @@
       "matches": ["<all_urls>"],
       "js": ["main.js"]
     }
-  ]
+  ],
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": {
+      "128": "rocket-128.png"
+    },
+    "default_title": "money2time"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  }
 }

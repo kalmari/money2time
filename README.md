@@ -11,13 +11,19 @@ TODO
 
 * exceptions web sites
 
-* how to show prices and hours on one page
+* how to show prices and hours on one page?  Auto-convert , Hybrid view , on click
 
 * options page, where user can set his hour rate in any currency
 
 * if data loaded with ajax, our app doesn't work
 
 * sync
+
+* Hourly Wage    Annual Income
+
+* if Annual Income then working hours per month 160 or what
+
+* null handling
 
 Formats that can into our app:
 
