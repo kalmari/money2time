@@ -17,6 +17,7 @@ TODO
 
 * if data loaded with ajax, our app doesn't work
 
+* sync
 
 Formats that can into our app:
 
