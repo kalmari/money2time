@@ -1,7 +1,12 @@
 To install extension clone repo, then go to google chrome extensions tab, then check "developer mode", then press load "unpacked extension button" and select cloned dir
 
+Published version can be found at https://chrome.google.com/webstore/detail/money-to-time/noichpcemjakfmogkapoflenimghcgmk
 
 TODO
+
+* support commas in prices 1,234.24 
+
+* составить список крутых сайтиков
 
 * Tests
 
@@ -38,3 +43,17 @@ Formats that can into our app:
 * EUR 123
 
 * EUR 123,45
+
+* 1&nbsp;234 р.
+
+* 1&nbsp;234 руб.
+
+We tested our extension on following websites:
+
+* amazon.com
+
+* amazon.de
+
+* ebay.com
+
+* wildberries.ru

@@ -13,15 +13,14 @@ var currencies = {
             return value.replace(/,/, '.')
         },
         matchingGroupIndex: 1
-    }/*,
-     RUB: {
-     exchangeRateToUsd: 1.21,
-     matches: /EUR (\d*,?\d+)/g,
-     normalizeValue: function(value) {
-     return value.replace(/,/, '.')
-     },
-     matchingGroupIndex: 1
-     }*/
+    },
+    RUB: {
+        matches: /(\d*\s?\d+)\s?р(уб)?\.?/g,
+        normalizeValue: function(value) {
+            return value.replace(/\s/, '')
+        },
+        matchingGroupIndex: 1
+    }
 };
 
 var rateInUsd,
