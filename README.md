@@ -1,3 +1,6 @@
+To install extension clone repo, then go to google chrome extensions tab, then check "developer mode", then press load "unpacked extension button" and select cloned dir
+
+
 TODO
 
 * Tests
@@ -11,6 +14,8 @@ TODO
 * how to show prices and hours on one page
 
 * options page, where user can set his hour rate in any currency
+
+* if data loaded with ajax, our app doesn't work
 
 
 Formats that can into our app:
