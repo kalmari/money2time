@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "money2time",
   "version": "0.1",
-  "description": "loooool",
+  "description": "Google chrome browser extension converting price to working hours",
   "icons": {"128": "rocket-128.png"},
   "content_scripts": [
     {
