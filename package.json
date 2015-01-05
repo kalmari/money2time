@@ -1,0 +1,17 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kalmari/money2time.git"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  }
+}
