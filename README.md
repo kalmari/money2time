@@ -1,4 +1,4 @@
-To install extension clone repo, then go to google chrome extensions tab, then check "developer mode", then press load "unpacked extension button" and select cloned dir
+To install extension clone repo, then go to google chrome extensions tab, then check "developer mode", then press load "unpacked extension button" and select cloned src dir
 
 Published version can be found at https://chrome.google.com/webstore/detail/money-to-time/noichpcemjakfmogkapoflenimghcgmk
 
